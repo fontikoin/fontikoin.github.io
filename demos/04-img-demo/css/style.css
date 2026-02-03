@@ -6,3 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+div {
+    text-align: center;
+}

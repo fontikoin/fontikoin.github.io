@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(179, 66, 66);
+    background-color: black;
+    padding: 10px;
+}
+
+#p-1 {
+    margin: 30px;
+    background-color: rgb(227, 236, 186);
+    padding: 10px;
+}
+
+#red-mark {
+    color: red;
+    background-color: beige;
+    padding: 5px;
+}
+
+#big {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+#inspector {
+    color: beige;
+}
+
+
+    gdgjbidfjv
+}
+
+

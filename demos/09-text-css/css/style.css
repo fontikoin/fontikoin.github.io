@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#font-weight {
+    font-weight: bold;
+}
+
+#font-style {
+    font-style: oblique;
+}
+
+#text-decoration {
+    text-decoration: line-through;
+}
+
+
+#align {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#align-left {
+    text-align: left;
+}
+
+#fake-header {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+img {
+    border: solid 10px rgb(247, 198, 154);
+    border-radius: 10px 50px;
+}
+
+#navbar {
+    background-color: aqua;
+    padding: 30px;
+}
+
+#active {
+    background-color: blue;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+
