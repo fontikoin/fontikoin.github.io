@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+
+#container {
+    width: 610px;
+    min-height: 90vh;
+    background-color: darkgray;
+    font-size: 0px;
+    border-top: solid 50px gray;
+    border-left: solid 50px rgb(138, 131, 131);
+    border-right: solid 50px rgb(138, 131, 131);
+    margin: 0px auto;
+    border-radius: 2%;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 10px 50%;
+}
+
+.red {
+    background-color: red;
+    border: 20px outset rgb(237, 69, 36);
+}
+
+.blue {
+    background-color: blue;
+    border: 20px outset rgb(57, 12, 155);
+}
+
+.yellow {
+    background-color: rgb(255, 242, 0);
+    border: 20px outset rgb(224, 201, 29);
+}
+
+.white {
+    background-color: white;
+    border: 20px outset rgb(252, 237, 236);
+}
+
+.purple {
+    background-color: purple;
+    border: 20px outset rgb(109, 8, 122);
+}

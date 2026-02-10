@@ -10,3 +10,8 @@ body {
 #demo-container {
    margin-left: 60px; 
 }
+
+h4 {
+    padding-bottom: 10px;
+    border-bottom: solid;
+}

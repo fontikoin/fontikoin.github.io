@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.frame {
+    margin: 24px;
+    display: inline-block;
+    border: 30px ridge rgb(118, 79, 15);
+    padding: 30px;
+    box-shadow: 10px  10px 5px rgb(0, 0, 0, .7);
+}
+
+.round-frame {
+    border-radius: 50%;
+    background-color: rgb(221, 211, 155);
+}
+
+.rectangle-frame {
+    background-color: rgb(229, 225, 205);
+    border
+}
+
+#frame-1 {
+    border:  2px solid white;
+    border-radius: 50%;
+}
+
+#frame-2 {
+    border: 2px solid white;
+}
+
+

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+
+
+.section3 {
+    padding: 20px;
+    background-color: rgb(253, 175, 175);
+    
+}
+
+#p2-2 {
+    margin: 20px;
+    background-color: rgb(251, 174, 174);
+
+}
+
+
+.shadowed {
+    background-color: rgb(205, 221, 221);
+    margin: 24px;
+    padding: 24px;
+}
