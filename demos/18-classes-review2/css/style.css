@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.post-it{
+  width: 200px;
+  height: 200px;
+  position: relative;  /* anchor for ::before */
+}
+
+.post-it::before{
+  content: "";
+  position: absolute;
+  inset: 0;            /* fills the 200x200 box */
+}
+
+/* color variants */
+.post-it.purple::before{
+  background: linear-gradient(#8a5cf6, #3b1b6d);
+}
+
+.post-it.blue::before{
+  background: linear-gradient(#668691, #262647);
+}

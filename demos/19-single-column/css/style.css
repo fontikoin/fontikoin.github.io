@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: "Candy Script";
+    src: url(CandyScript.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    text-align: center;
+    width: 50%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.lighter {
+    background-color: aquamarine;
+    padding: 48px 0px;
+}
+
+.darker {
+    background-color: black;
+    color: rgb(218, 218, 218);
+    padding: 48px 0px;
+}
+
+.single-column h2 {
+    font-family: "Candy Script", sans-serif;
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    margin-top: 0px;
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+
+.centered-column {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.heading {
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+.heading h2 {
+    font-size: 20px;
+}
+
