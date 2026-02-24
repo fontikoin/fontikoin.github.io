@@ -7,3 +7,60 @@ body {
     font-family: sans-serif;
 }
 
+#centered-hero {
+    background-image: url(../images/stars-on-velvet.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+    
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+}
+
+#side-hero {
+    background-image: url(../images/lonely-ocean.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10%;
+}
+
+#contrast-hero {
+    background-image: url(../images/placid-waters.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#contrast-hero .hero-content {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    padding: 72px;
+    text-align: center;
+    width: 100vw;
+}
+
+
+
+
