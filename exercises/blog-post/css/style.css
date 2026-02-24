@@ -8,6 +8,14 @@ body {
     
 }
 
+p {
+    background-color: red;
+}
+
+div {
+    background-color: red;
+}
+
 .centered-column {
     background-color: white;
     width: 50%;

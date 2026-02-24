@@ -5,5 +5,55 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+   
 }
+
+#single-column {
+    padding: 20px 0px;
+    width: 90vw;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+
+
+.card {
+    background-color: beige;
+    padding: 20px;
+   
+}
+
+a {
+    background-color: black;
+    padding: 20px;
+  
+    margin: 10px 0px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+h3 {
+
+    margin: 0px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.side-by-side-container {
+    display: flex;
+}
+
+.side-by-side-container .image-container,
+.side-by-side-container .text-container {
+    flex: 1;
+}
+
+.side-by-side-container .image-container img {
+    width: 100%;
+}
+
 
