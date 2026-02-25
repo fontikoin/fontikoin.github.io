@@ -49,11 +49,14 @@ h3 {
 
 .side-by-side-container .image-container,
 .side-by-side-container .text-container {
+    
     flex: 1;
 }
 
 .side-by-side-container .image-container img {
+    object-fit: cover;
     width: 100%;
+    
 }
 
 
